@@ -33,14 +33,38 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "none") {
     return `${renderLicenseBadge(license)}\n
-    Link: ${enderLicenseLink(license)}`;
+    Link: ${renderLicenseLink(license)}`;
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.username}
-
+  return `# ${data.project} 
+${renderLicenseBadge(data.license)}
+## Git Hub Username & email
+${data.username}
+${data.email}
+## Description
+${data.description}
+## Deployed Application URL
+${data.link}
+## Table of Contents
+* [Features](#features)
+* [Languages & Dependencies](#languagesanddependencies)
+* [How to Use This Application](#HowtoUseThisApplication)
+* [Contributors](#contributors)
+* [Testing](#testing)
+* [Questions](#questions)
+## Repo Info
+${data.repInfo}
+## Languages & Dependencies
+${data.installCommand}
+## How to Use This Application:
+${data.repInfo}
+## Contributors
+${data.contributions}
+## How to run Tests
+${data.testCommand}
 `;
 }
 

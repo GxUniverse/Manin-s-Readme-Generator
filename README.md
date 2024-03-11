@@ -1,2 +1,8 @@
 # Manin-s-Readme-Generator
-The Greatest Readme Generator ever created. All the rest have tried but have failed. 
+
+GitHub: @thegxuniverse
+email: thegxuniverse@gmail.com
+
+screen caster link https://drive.google.com/file/d/1i215ZM8HfQ-SMWoFOO1V4mKt4dU1zSlQ/view
+
+
